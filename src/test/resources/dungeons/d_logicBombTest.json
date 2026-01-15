@@ -1,0 +1,186 @@
+{
+    "entities": [
+      {
+        "x": 2,
+        "y": 0,
+        "type": "wire"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "wire"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "wire"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "wire"
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "type": "wire"
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "type": "wire"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "switch"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "bomb",
+        "logic": "or"
+      },
+      {
+        "x": 7,
+        "y": 1,
+        "type": "bomb",
+        "logic": "xor"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "boulder"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "wire"
+      },
+      {
+        "x": 7,
+        "y": 2,
+        "type": "wire"
+      },
+      {
+        "x": 9,
+        "y": 2,
+        "type": "bomb",
+        "logic": "co_and"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "player"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "boulder"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "switch"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "wire"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "wire"
+      },
+      {
+        "x": 6,
+        "y": 3,
+        "type": "wire"
+      },
+      {
+        "x": 7,
+        "y": 3,
+        "type": "wire"
+      },
+      {
+        "x": 8,
+        "y": 3,
+        "type": "wire"
+      },
+      {
+        "x": 9,
+        "y": 3,
+        "type": "wire"
+      },
+      {
+        "x": 9,
+        "y": 4,
+        "type": "bomb",
+        "logic": "and"
+      },
+      {
+        "x": 8,
+        "y": 4,
+        "type": "switch"
+      },
+      {
+        "x": 7,
+        "y": 4,
+        "type": "boulder"
+      },
+      {
+        "x": 8,
+        "y": 5,
+        "type": "wire"
+      },
+      {
+        "x": 8,
+        "y": 6,
+        "type": "wire"
+      },
+      {
+        "x": 9,
+        "y": 6,
+        "type": "wire"
+      },
+      {
+        "x": 10,
+        "y": 6,
+        "type": "wire"
+      },
+      {
+        "x": 11,
+        "y": 6,
+        "type": "wire"
+      },
+      {
+        "x": 11,
+        "y": 5,
+        "type": "wire"
+      },
+      {
+        "x": 11,
+        "y": 4,
+        "type": "wire"
+      },
+      {
+        "x": 11,
+        "y": 3,
+        "type": "wire"
+      },
+      {
+        "x": 11,
+        "y": 2,
+        "type": "wire"
+      },
+      {
+        "x": 10,
+        "y": 2,
+        "type": "wire"
+      }
+    ],
+    "goal-condition": {
+      "goal": "exit"
+    }
+  }
